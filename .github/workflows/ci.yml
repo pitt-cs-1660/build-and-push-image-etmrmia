@@ -39,11 +39,11 @@ jobs:
          context: ./
          file: ./Dockerfile
          push: true
-         tags: us-central1.pkg.dev/fine-effect-435423-b8/build-and-push-image:node-demo:test
+         tags: us-central1-docker.pkg.dev/pitt-cs-1660/build-and-push-image-etmrmia:node-demo:test
 
 # @note: you can use regular docker commands instead of the shared action
      - name: Build and Push Without Buildx
        run: |
-         docker build -t us-central1-docker.pkg.dev/fine-effect-435423-b8/build-and-push-image/node-demo:test .
+         docker build -t us-central1-docker.pkg.dev/pitt-cs-1660/build-and-push-image-etmrmia/node-demo:test .
          docker push us-central1-docker.pkg.dev/fine-effect-435423-b8/build-and-push-image/node-demo:test
         #  --> us-central1.pkg.dev/cc-fall2024/dansc0de/node-demo:v1 <--
