@@ -42,8 +42,8 @@ jobs:
          tags: us-central1-docker.pkg.dev/fine-effect-435423-b8/build-and-push-image:node-demo:test
 
 # @note: you can use regular docker commands instead of the shared action
-    #  - name: Build and Push Without Buildx
-    #    run: |
-    #      docker build -t us-central1-docker.pkg.dev/fine-effect-435423-b8/pitt-cs-1660/[IMAGE NAME]:[TAG] .
-    #      docker push us-central1-docker.pkg.dev/fine-effect-435423-b8/pitt-cs-1660/[IMAGE NAME]:[TAG]
-    #      --> us-central1.pkg.dev/cc-fall2024/dansc0de/node-demo:v1 <--
+     - name: Build and Push Without Buildx
+       run: |
+         docker build -t us-central1-docker.pkg.dev/fine-effect-435423-b8/build-and-push-image/node-demo:test .
+         docker push us-central1-docker.pkg.dev/fine-effect-435423-b8/build-and-push-image/node-demo:test
+        #  --> us-central1.pkg.dev/cc-fall2024/dansc0de/node-demo:v1 <--
