@@ -1,0 +1,19 @@
+TimeSeries ID,workload_identity_federation/count.iam.googleapis.com/WorkloadIdentityPoolProvider.ALIGN_RATE.REDUCE_SUM.metric.type="iam.googleapis.com/workload_identity_federation/count" resource.type="iam.googleapis.com/WorkloadIdentityPoolProvider" metric.label."result"="success".60s.pool_id:github.project_id:fine-effect-435423-b8
+project_id,fine-effect-435423-b8
+pool_id,github
+Wed Oct 30 2024 00:20:00 GMT-0400 (Eastern Daylight Time),0.0066665555537036725
+Wed Oct 30 2024 00:25:00 GMT-0400 (Eastern Daylight Time),0.006666777779629661
+Wed Oct 30 2024 00:35:00 GMT-0400 (Eastern Daylight Time),0.013333333333333334
+Wed Oct 30 2024 18:35:00 GMT-0400 (Eastern Daylight Time),0.0033333333333333335
+Wed Oct 30 2024 19:05:00 GMT-0400 (Eastern Daylight Time),0.0033333333333333335
+Wed Oct 30 2024 19:10:00 GMT-0400 (Eastern Daylight Time),0.007777740740123447
+Wed Oct 30 2024 19:15:00 GMT-0400 (Eastern Daylight Time),0.0022222592598765533
+Wed Oct 30 2024 19:25:00 GMT-0400 (Eastern Daylight Time),0.007777629627160454
+Wed Oct 30 2024 19:30:00 GMT-0400 (Eastern Daylight Time),0.008889037039506213
+Wed Oct 30 2024 19:35:00 GMT-0400 (Eastern Daylight Time),0.013333333333333334
+Wed Oct 30 2024 19:40:00 GMT-0400 (Eastern Daylight Time),0.014444407406790115
+Wed Oct 30 2024 19:45:00 GMT-0400 (Eastern Daylight Time),0.02666666666666667
+Wed Oct 30 2024 19:50:00 GMT-0400 (Eastern Daylight Time),0.012222259259876554
+Wed Oct 30 2024 20:35:00 GMT-0400 (Eastern Daylight Time),0.023333333333333334
+Wed Oct 30 2024 22:40:00 GMT-0400 (Eastern Daylight Time),0.013333333333333334
+Wed Oct 30 2024 23:10:00 GMT-0400 (Eastern Daylight Time),0.013333333333333334
