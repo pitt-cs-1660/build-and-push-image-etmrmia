@@ -1,0 +1,1290 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "100.6.160.239",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.services.enable invocation-id/d3bec9e1667c43da8fe604f027379398 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1085175978926/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/services/artifactregistry.googleapis.com",
+      "request": {
+        "name": "projects/fine-effect-435423-b8/services/artifactregistry.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "qer757dmp2w",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fine-effect-435423-b8",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-10-28T02:51:13.683930Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1085175978926-d95d4bdd-37ad-42cb-ba15-a528bd5ba000",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-28T02:51:15.554435659Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "100.6.160.239",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.services.enable invocation-id/d3bec9e1667c43da8fe604f027379398 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1085175978926",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1085175978926/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1085175978926/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1085175978926/operations/acat.p2-1085175978926-d95d4bdd-37ad-42cb-ba15-a528bd5ba000"
+    },
+    "insertId": "mj0xfidepyk",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "fine-effect-435423-b8"
+      }
+    },
+    "timestamp": "2024-10-28T02:51:14.682033Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-28T02:51:15.934886635Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "100.6.160.239",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.services.enable invocation-id/d3bec9e1667c43da8fe604f027379398 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1085175978926/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/services/artifactregistry.googleapis.com",
+      "request": {
+        "name": "projects/fine-effect-435423-b8/services/artifactregistry.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse",
+        "service": {
+          "state": "ENABLED",
+          "name": "projects/1085175978926/services/artifactregistry.googleapis.com",
+          "config": {
+            "name": "artifactregistry.googleapis.com",
+            "title": "Artifact Registry API"
+          },
+          "parent": "projects/1085175978926"
+        }
+      }
+    },
+    "insertId": "8cgtzdd4yzc",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "fine-effect-435423-b8"
+      }
+    },
+    "timestamp": "2024-10-28T02:51:15.490081745Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1085175978926-d95d4bdd-37ad-42cb-ba15-a528bd5ba000",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-28T02:51:15.490081745Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "100.6.160.239",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.services.enable invocation-id/d3bec9e1667c43da8fe604f027379398 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1085175978926",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1085175978926/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1085175978926/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1085175978926/operations/acat.p2-1085175978926-d95d4bdd-37ad-42cb-ba15-a528bd5ba000"
+    },
+    "insertId": "1ghw5zgdkrfh",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "fine-effect-435423-b8",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-28T02:51:17.414038Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-28T02:51:17.746866455Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "100.6.160.239",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-28T02:57:31.095106052Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1",
+      "request": {
+        "repository": {
+          "cleanupPolicyDryRun": true,
+          "format": "DOCKER",
+          "dockerConfig": {
+            "immutableTags": false
+          }
+        },
+        "repositoryId": "build-and-push-image",
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest",
+        "parent": "projects/fine-effect-435423-b8/locations/us-central1"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "g3l1fkc1vy",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "project_id": "fine-effect-435423-b8",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-28T02:57:31.088408253Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/fine-effect-435423-b8/locations/us-central1/operations/f422af41-699e-4bd4-84b5-c12871e791cf",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-28T02:57:31.554629013Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/fine-effect-435423-b8",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/fine-effect-435423-b8",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/fine-effect-435423-b8",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.serviceAgent",
+              "member": "serviceAccount:service-1085175978926@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "policy": {
+          "etag": "BwYh4Jlb6xQ=",
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:service-1085175978926@compute-system.iam.gserviceaccount.com"
+              ],
+              "role": "roles/compute.serviceAgent"
+            },
+            {
+              "role": "roles/editor",
+              "members": [
+                "serviceAccount:1085175978926-compute@developer.gserviceaccount.com",
+                "serviceAccount:1085175978926@cloudservices.gserviceaccount.com"
+              ]
+            },
+            {
+              "role": "roles/owner",
+              "members": [
+                "user:etmrmia172130@gmail.com"
+              ]
+            },
+            {
+              "members": [
+                "serviceAccountId:110621089035759725865"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            }
+          ]
+        },
+        "resource": "1085175978926"
+      },
+      "response": {
+        "bindings": [
+          {
+            "role": "roles/artifactregistry.serviceAgent",
+            "members": [
+              "serviceAccount:service-1085175978926@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ]
+          },
+          {
+            "members": [
+              "serviceAccount:service-1085175978926@compute-system.iam.gserviceaccount.com"
+            ],
+            "role": "roles/compute.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:1085175978926-compute@developer.gserviceaccount.com",
+              "serviceAccount:1085175978926@cloudservices.gserviceaccount.com"
+            ],
+            "role": "roles/editor"
+          },
+          {
+            "members": [
+              "user:etmrmia172130@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ],
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "etag": "BwYlgKFKU5A="
+      }
+    },
+    "insertId": "-5rp97eehmaja",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "fine-effect-435423-b8"
+      }
+    },
+    "timestamp": "2024-10-28T02:57:31.944312Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-28T02:57:33.316775245Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "response": {
+        "format": "DOCKER",
+        "description": "CS 1660 build and push image assignment",
+        "sbomConfig": {},
+        "name": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+        "dockerConfig": {},
+        "cleanupPolicyDryRun": true,
+        "@type": "type.googleapis.com/google.protobuf.Any",
+        "mode": "STANDARD_REPOSITORY",
+        "vulnerabilityScanningConfig": {
+          "lastEnableTime": "2024-10-28T02:57:31.105307065Z"
+        }
+      }
+    },
+    "insertId": "1mayznccbqp",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "fine-effect-435423-b8",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository"
+      }
+    },
+    "timestamp": "2024-10-28T02:57:39.818915805Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/fine-effect-435423-b8/locations/us-central1/operations/f422af41-699e-4bd4-84b5-c12871e791cf",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-28T02:57:40.524326079Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "100.6.160.239",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/85f8596fb5ab40809b864216ff8530b1 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-28T03:11:25.942212898Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/global",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool",
+          "disabled": false
+        },
+        "parent": "projects/fine-effect-435423-b8/locations/global",
+        "workloadIdentityPoolId": "github"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "x2abdqdj90u",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "project_id": "fine-effect-435423-b8",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-28T03:11:25.933135308Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1085175978926/locations/global/workloadIdentityPools/github/operations/bigarxub7s4amehaw3oyyai000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-28T03:11:26.360210197Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/fine-effect-435423-b8/locations/global",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/1085175978926/locations/global/workloadIdentityPools/github/operations/bigarxub7s4amehaw3oyyai000000000"
+      }
+    },
+    "insertId": "-ex60lqc2le",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fine-effect-435423-b8",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-10-28T03:11:26.830484Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1085175978926/locations/global/workloadIdentityPools/github/operations/bigarxub7s4amehaw3oyyai000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-28T03:11:27.350022636Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "100.6.160.239",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/4444ee3601c94ddf8e56f2720ef11539 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-28T03:13:54.509882061Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/global/workloadIdentityPools/github",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository"
+          },
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'",
+          "disabled": false,
+          "displayName": "My GitHub repo Provider"
+        },
+        "parent": "projects/fine-effect-435423-b8/locations/global/workloadIdentityPools/github",
+        "workloadIdentityPoolProviderId": "my-repo",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1u1q22wdmysl",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "fine-effect-435423-b8"
+      }
+    },
+    "timestamp": "2024-10-28T03:13:54.492090073Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1085175978926/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bifqr44c7s4amefas6rrc00000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-28T03:13:55.308040667Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/fine-effect-435423-b8/locations/global/workloadIdentityPools/github",
+      "response": {
+        "name": "projects/1085175978926/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bifqr44c7s4amefas6rrc00000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "tfhx8rcwvz",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fine-effect-435423-b8",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-10-28T03:13:55.037193Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1085175978926/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bifqr44c7s4amefas6rrc00000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-28T03:13:55.992696906Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "100.6.160.239",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/502294a6a7e240379159ba25aeb6f94d environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-30T06:11:38.549933179Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "request": {
+        "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1hlz6tkd2ysz",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fine-effect-435423-b8",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-30T06:11:38.539203871Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-30T06:11:39.669462164Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "100.6.160.239",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/6587eb2ab9aa477db1b917638c422407 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-30T06:12:06.489076744Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "i2ksfjc3b8",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "fine-effect-435423-b8"
+      }
+    },
+    "timestamp": "2024-10-30T06:12:06.480490046Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-30T06:12:07.364168842Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The role name must be in the form \"roles/{role}\", \"organizations/{organization_id}/roles/{role}\", or \"projects/{project_id}/roles/{role}\"."
+      },
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.110",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/2abb5541d521463fb075fb1f61998b92 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-30T23:29:13.803328797Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "request": {
+        "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "1fmnpvscnbo",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fine-effect-435423-b8",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-30T23:29:13.795398134Z",
+    "severity": "ERROR",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-30T23:29:14.291275466Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.110",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/6afafb6a6525469eb2b60db5e4840def environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-30T23:30:04.281700738Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "request": {
+        "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1ig5czyc3ez",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "fine-effect-435423-b8",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-30T23:30:04.274747058Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-30T23:30:04.807290589Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.110",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/15f563d612aa41999ae4d7dacf46c6d7 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-30T23:36:51.714324950Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "request": {
+        "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "8nlh42d2h4t",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "fine-effect-435423-b8",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-30T23:36:51.699157802Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-30T23:36:52.705728070Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.110",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/4b1d7d8a504f4ebabf1d5b38685f8657 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-30T23:42:06.763539647Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "request": {
+        "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "q59ut9d2im1",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fine-effect-435423-b8",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-30T23:42:06.754426607Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-30T23:42:07.191847209Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.110",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/0ab4b60474f3446a9e985d9bdacec7df environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-30T23:42:54.141342970Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1fm10qcd3dpc",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "fine-effect-435423-b8",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-30T23:42:54.132700631Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-30T23:42:54.639469211Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.110",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.remove-iam-policy-binding invocation-id/eac3d2ea3696445ba5b8bd649d0e828b environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T00:28:23.674605788Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "request": {
+        "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1bhlpwyd2c5k",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fine-effect-435423-b8",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-31T00:28:23.667149433Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T00:28:24.422788568Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.110",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.remove-iam-policy-binding invocation-id/fcda54c11de14e56ab3d3ec331847585 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T00:28:51.558605777Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "request": {
+        "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "ct3i9zd2d0h",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "fine-effect-435423-b8"
+      }
+    },
+    "timestamp": "2024-10-31T00:28:51.544386867Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T00:28:51.881268837Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.110",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.remove-iam-policy-binding invocation-id/6118b7143a1247e981bfe42b487397c9 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T00:29:08.764619805Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "15nkkmld2aai",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fine-effect-435423-b8",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-31T00:29:08.755919438Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T00:29:09.842705389Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.110",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.remove-iam-policy-binding invocation-id/3ecbdd62f75c4da0a55c50958e48ea6c environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T00:29:32.089536077Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "request": {
+        "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1cw3z3sc7yg",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "fine-effect-435423-b8",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-31T00:29:32.083432268Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T00:29:32.889334455Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "etmrmia172130@gmail.com",
+        "principalSubject": "user:etmrmia172130@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.110",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/f1a747fc2fc448f0a68864ee41520359 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T00:31:21.941770722Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/fine-effect-435423-b8/locations/us-central1/repositories/build-and-push-image"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "7k10h9d25x7",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "fine-effect-435423-b8"
+      }
+    },
+    "timestamp": "2024-10-31T00:31:21.934145603Z",
+    "severity": "NOTICE",
+    "logName": "projects/fine-effect-435423-b8/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T00:31:22.641922158Z"
+  }
+]
